@@ -23,6 +23,9 @@
 	<category name="org.apache.http">
 		<priority value="info"/>
 	</category>
+	<category name="org.springframework.beans.factory.xml">  
+	    <priority value="info" />  
+	</category>
 	<root>
 		<priority value="debug"/>
 		<appender-ref ref="ConsoleAppender"/>
